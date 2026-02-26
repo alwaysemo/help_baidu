@@ -5,7 +5,6 @@
 
 ### 预览
 
-在线预览地址：https://baidu.alwaysemo.com
 ![预览图](https://github.com/alwaysmeo/help_baidu/blob/master/src/assets/images/preview.png)
 
 ### 依赖安装
