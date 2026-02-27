@@ -70,7 +70,14 @@
 			<img class="logo" src="@assets/svg/baidu.svg" alt="baidu logo" srcset="" />
 			<div class="input-container">
 				<div>
-					<input v-model="searchValue" ref="input" class="input" type="text" placeholder="让我帮你百度一下，你就知道" />
+					<textarea
+						v-model="searchValue"
+						ref="input"
+						class="input"
+						autocomplete="off"
+						rows="1"
+						placeholder="让我帮你百度一下，你就知道"
+					></textarea>
 					<button ref="button" @click="generate">百度一下</button>
 				</div>
 			</div>
@@ -162,12 +169,17 @@
 				height: 100%;
 				border-radius: 10px;
 				background-color: white;
-				input {
+				textarea {
 					min-width: 10px;
 					font-size: 16px;
 					padding: 0 12px;
 					border: none;
 					height: 46px;
+					line-height: 46px;
+					box-sizing: border-box;
+					cursor: auto;
+					resize: none;
+					outline: none;
 				}
 				button {
 					font-size: 16px;
