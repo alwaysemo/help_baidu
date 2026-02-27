@@ -42,6 +42,7 @@ export default defineConfig([
 			'vue/multi-word-component-names': 'off',
 			'vue/no-parsing-error': 'off',
 			'vue/html-self-closing': ['error', { html: { void: 'always', normal: 'never', component: 'always' } }],
+			'no-useless-assignment': 'off',
 		},
 	},
 ])
