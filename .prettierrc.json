@@ -1,11 +1,13 @@
 {
-  "$schema": "https://json.schemastore.org/prettierrc",
-  "printWidth": 120,
-  "tabWidth": 2,
-  "useTabs": true,
-  "vueIndentScriptAndStyle": true,
-  "semi": false,
-  "trailingComma": "es5",
-  "singleQuote": true,
-  "bracketSpacing": true
+	"$schema": "https://json.schemastore.org/prettierrc",
+	"printWidth": 120,
+	"tabWidth": 2,
+	"useTabs": true,
+	"vueIndentScriptAndStyle": true,
+	"semi": false,
+	"trailingComma": "es5",
+	"singleQuote": true,
+	"bracketSpacing": true,
+	"quoteProps": "consistent",
+	"plugins": ["prettier-plugin-tailwindcss"]
 }

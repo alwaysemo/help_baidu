@@ -1,4 +1,5 @@
 import '@assets/styles/common.scss'
+import 'tailwindcss/index.css'
 
 import { createApp } from 'vue'
 import routes from '@routes'
