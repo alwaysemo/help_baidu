@@ -1,0 +1,1 @@
+.pointer[data-v-50e947ba]{position:fixed;top:0;left:0;width:18px;z-index:1000;pointer-events:none;transform:translate(0)}.animate[data-v-50e947ba]{animation:moveToTarget-50e947ba 2s cubic-bezier(.3,1.2,.7,1) forwards}@keyframes moveToTarget-50e947ba{0%{transform:translate(var(--start-x),var(--start-y))}to{transform:translate(var(--target-x),var(--target-y))}}
